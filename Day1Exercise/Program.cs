@@ -17,7 +17,10 @@ namespace Day1Exercise
             Console.WriteLine("Wonderful! Now enter your hometown.");
             string homeTown = Console.ReadLine();
 
-            Console.WriteLine($"Your name is {name}. Your age is {age}. Your hometown is {homeTown}.");
+            Console.WriteLine("Enter your favorite food");
+            string food = Console.ReadLine();
+
+            Console.WriteLine($"Your name is {name}. Your age is {age}. Your hometown is {homeTown}. Your favorite food is {food}.");
         }
     }
 }
